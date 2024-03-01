@@ -36,6 +36,7 @@ Links of my previous projects
 * Resume.pdf
 
   * I also added some inline javascript codes, form for contact me, image sliders,hover effects etc.
+  * videos that related to my projects are located inside the "Read more" button on the "portfolio.html"
   
 
 ### Contact details
