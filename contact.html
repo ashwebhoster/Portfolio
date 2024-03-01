@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>My Portfolio</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        
+<link rel="stylesheet" href="style.css">
+
+<script src="script.js">
+    
+</script>
+
+
+ </head>
+
+<body>
+
+
+<!--contact section-->
+      <div class="container" id="contact">
+          <div style="text-align:center">
+            <h2>Let's Talk</h2>
+            <p>Leave me a message:</p>
+          </div>
+          <div class="row">
+            <div class="column">
+              <img src="Images\quoto.jpg" style="width:100%">
+            </div>
+            <div class="column">
+
+      <form name="my form" onsubmit="return validateForm()" method="post">
+        
+
+    <label for="name">First Name:</label>
+    <input type="text" name="name" id="name" required><br><br>
+
+    <label for="name">Last Name:</label>
+    <input type="text" name="lname" id="lname" required><br><br>
+
+    <label for="email">Email:</label>
+    <input type="email" name="email" id="email" required><br><br>
+
+	<label for="country">Country</label>
+
+        <select id="country" name="country">
+          <option value="sri lanka">Sri Lanka</option>
+          <option value="japan">Japan</option>
+          <option value="usa">USA</option>
+          <option value="Australia">Australia</option>
+          <option value="UK">UK</option>
+          <option value="Rusia">Rusia</option>
+          <option value="Chaina">Chaina</option>
+        </select>
+        
+        <label for="subject">Subject</label>
+        <textarea id="subject" name="subject" placeholder="Write something.." style="height:170px"></textarea>
+        <input type="submit" value="Submit">
+      </form>
+    </div>
+  </div>
+</div>
+
+
+
+
+</body>
+
+</html>

@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>My Portfolio</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        
+<link rel="stylesheet" href="style.css">
+
+<script src="script.js">    
+</script>
+
+ </head>
+
+<body>
+
+
+<div id="myDIV">
+
+  <button class="button" onclick="myFunction()">Gallery</button></a>
+</div>
+
+
+<!-- image slider-->
+
+        <div class="row">
+          <div class="column">
+            <div class="card">
+            <img src="Images\image1.png" alt="" class="slide" align="left" style="width:100%">
+            <img src="Images\image2.jpg" alt="" class="slide" align="left" style="width:100%">
+	    <img src="Images\image3.png" alt="" class="slide" align="left" style="width:100%">
+
+              <div class="container">
+                <h2>Projects</h2>
+                <p class="title"> events</p>
+                <p><a href= "Videos\Reality.mp4"><button class="button">Read More</button></p></a>
+             </div>
+          </div>
+        </div>
+        
+          <div class="column">
+            <div class="card">
+              <img src="Images\image4.jpg" alt="" class="slide" align="right" style="width:100%">
+              <img src="Images\image6.png" alt="" class="slide" align="right" style="width:100%">
+
+              <div class="container">
+                <h2>Projects</h2>
+                <p class="title"> events</p>
+                
+                <p><a href= "Videos\Narated presentation on web site.mp4"><button class="button">Read More</button></p></a>
+              </div>
+            </div>
+          </div>
+        </div>
+</div>
+
+
+<!--videos-->
+
+    <h2>Videos</h2>
+<video width="400" height="300" controls>
+  <source src="Videos/Reality.mp4" type="video/mp4">
+  <source src="Videos/Reality.webm" type="video/webm">
+  Your browser does not support the video tag.
+</video>
+
+
+<script>
+  // JavaScript code
+  const slider = document.querySelector('.slider');
+  const slides = document.querySelectorAll('.slide');
+  let currentSlide = 0;
+
+  function showSlide(slideIndex) {
+    // Hide all slides
+    slides.forEach((slide) => {
+      slide.style.display = 'none';
+    });
+
+    // Show the current slide
+    slides[slideIndex].style.display = 'block';
+  }
+
+  function nextSlide() {
+    currentSlide++;
+    if (currentSlide >= slides.length) {
+      currentSlide = 0;
+    }
+    showSlide(currentSlide);
+  }
+
+  // Automatically switch to the next slide every 4 seconds
+  setInterval(nextSlide, 4000);
+
+  // Display the first slide initially
+  showSlide(currentSlide);
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+
+</html>

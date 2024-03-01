@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Video Example</title>
+</head>
+<body>
+  <video src="C:\Users\Ashara\OneDrive\Desktop\Multimedia project\reality.mp4" controls>
+   <video src="C:\Users\Ashara\OneDrive\Desktop\Multimedia project\Narated presentation on web site.mp4" controls>
+
+    Your browser does not support the video tag.
+  </video>
+</body>
+</html>
