@@ -32,10 +32,11 @@ Links of my previous projects
 * portfolio.html
 * contact.html
 * style.css
-* script.css
+* script.js
+* Resume.pdf
 
   * I also added some inline javascript codes, form for contact me, image sliders,hover effects etc.
-  * 
+  
 
 ### Contact details
 https://www.facebook.com/asharahasarangi.yapa?mibextid=ZbWKwL 
